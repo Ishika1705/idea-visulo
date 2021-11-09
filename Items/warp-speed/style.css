@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+html,body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+body {
+  background-image: url('img/warp-1.jpg');
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  position: relative;
+  background-size: cover;
+}
+
+
+html{
+    scroll-behavior: smooth;;
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+canvas {
+  display: block;
+}
+
+#items-heading {
+    font-size: 4rem;
+    padding: 1.5rem;
+}
+
+.heading h1{
+    font-size: 4rem;
+}
+
+
+#animation{
+    padding: 2.5rem;
+}
+#desc{
+    padding: 2.5rem;
+}
+
+#note{
+    padding: 1rem 1rem;
+}
+
+#slider1{
+    text-align: center;
+    /* padding: 2rem; */
+}
+
+#slider2{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+
+
+/* #square {
+ float: left;
+    margin: 10px 10px 0 0;
+    width: 100%;
+} */
+
+#square canvas {
+    width: 100% !important;
+    height: auto !important;
+}
+
+
+@media (min-width: 576px){
+.note {
+    padding: 1rem 1rem;
+}
+}
+
